@@ -1,0 +1,230 @@
+/* 公共样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #FF6700;
+}
+
+
+body {
+	font-family: '微软雅黑';
+	font-size: 12px;
+	color: #F0F0F0;
+	background: #fff;
+}
+
+li {
+	list-style: none;
+}
+
+img {
+	width: 100%;
+	display: block;
+	vertical-align: middle;
+}
+
+/* 版心 */
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/* 浮动 */
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+
+}
+
+/* 清除浮动 */
+.clearflx:after,
+.clearflx:before {
+	content: '';
+	display: table;
+	overflow: hidden;
+	clear: both;
+	height: 0;
+}
+
+.clearflx {
+	*zome;
+}
+
+/* topnav */
+.topnav {
+	height: 40px;
+	background: #000;
+	line-height: 40px;
+	margin-bottom: 22px;
+}
+
+.topnav .spacer {
+	width: 1px;
+	height: 13px;
+	background: #40403B;
+	margin: 15px 8px;
+}
+
+.topnav li {
+	float: left;
+
+}
+
+.topnav li a {
+	color: #E0E0E0;
+}
+
+.topnav li a:hover {
+	color: #FF6700;
+}
+
+.header {
+	height: 55px;
+	line-height: 55px;
+}
+
+.header .logo {
+	height: 55px;
+	width: 55px;
+	margin-top: 5px;
+	background: url(img/logo.png) no-repeat left center;
+	font-size: 0;
+}
+
+.header .logo_ad {
+	margin-left: 40px;
+}
+
+.header .logo_ad img {
+	height: 100%;
+}
+
+.header .navbar {
+	margin-left: 15px;
+}
+
+.header .navbar a {
+	color: #743354;
+	font-size: 16px;
+	line-height: 55px;
+	padding: 0 10px;
+
+}
+
+/* banner */
+.banner {
+	margin-top: 22px;
+	margin-bottom: 14px;
+}
+
+.banner .banner_list {
+	width: 209px;
+	height: 440px;
+	background: rgba(40, 80, 95, 1);
+	padding: 10px 0;
+
+}
+
+.banner .banner_list .icon {
+	float: right;
+	color: #FFFFFF;
+	font-size: 16px;
+	opacity: 0.8;
+}
+
+.banner .banner_list li {
+	padding: 15px 26px;
+}
+
+.banner .banner_list li:hover {
+	background: #FF6700;
+	color: #fff !important;
+}
+
+.banner .banner_list li a {
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-left: 4px;
+}
+
+
+/* 广告图片 */
+.shop_pic_ad {
+	width: 1200px;
+	margin-bottom: 66px;
+}
+
+.shop_pic_ad li {
+	width: calc(100% / 4 - 14px);
+	margin-right: 14px;
+	float: left;
+}
+
+/* 商品列表 */
+.shop_list {
+	max-height: 800px;
+	height: 800px;
+	background: #F5F5F5;
+
+}
+
+.shop_list .shop_hd {
+	
+	padding: 80px 0 15px 0;
+	color: #000;
+	font-size: 16px;
+}
+
+.shop_list .shop_bd .shop_bd_left {
+	width: 230px;
+}
+
+.shop_list .shop_bd_right {
+	width: 960px;
+	text-align: center;
+
+}
+
+.shop_bd_right img {
+	margin: 20px 0;
+	height: 160px;
+}
+
+.shop_bd_right li {
+	float: left;
+	width: calc(100% / 4 - 32px);
+	height: 295px;
+	margin: 0 14px 14px 14px;
+	background: #fff;
+	border: 1px solid transparent;
+}
+.shop_bd_right li:hover{
+	border: 1px solid #FFA633;
+}
+
+.shop_bd_right li h4 {
+	font-size: 14px;
+	color: #000;
+	font-weight: normal;
+}
+
+.shop_bd_right li p {
+	font-size: 12px;
+	color: #BBB0BB;
+	margin: 10px 0;
+}
+
+.shop_bd_right .prick {
+	color: #FF6700;
+	font-size: 12px;
+}
